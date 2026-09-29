@@ -171,6 +171,7 @@ DELETE /api/v1/orders/{id}
 **Навыки:** `WHERE`, `LIKE`, `BETWEEN`, `GROUP BY`, `HAVING`, `ORDER BY`, `LIMIT`, `LEFT JOIN`, агрегирующие функции, работа с датами.
 
 ![ER-диаграмма](https://github.com/isneznanov/qa-pet-project-yp/blob/main/additional_materials/basic_sql_project.png)
+[Описание ER-диаграммы](https://github.com/isneznanov/qa-pet-project-yp/blob/main/additional_materials/basic_sql_project.pdf)
 
 **1. Посчитать, сколько компаний закрылось.**
 ```sql
