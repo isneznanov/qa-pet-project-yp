@@ -40,7 +40,7 @@
 **Результат:** <!-- Например: N тест-кейсов, найдено N багов (из них N критичных) -->
 
 **Артефакты:**
-- 📊 [Рабочая таблица]([ссылка](https://github.com/isneznanov/qa-pet-project-yp/blob/main/01_Web_Routes_Forms.xlsx))
+- 📊 [Рабочая таблица](https://github.com/isneznanov/qa-pet-project-yp/blob/main/01_Web_Routes_Forms.xlsx)
 
 ---
 
@@ -59,8 +59,7 @@
 **Результат:** <!-- Например: N проверок в чек-листах, N тест-кейсов, найдено N багов, из них N блокирующих -->
 
 **Артефакты:**
-- 📊 [Рабочая таблица (чек-листы, тест-кейсы, баг-репорты)](ссылка)
-- 📄 [Отчёт о тестировании](ссылка)
+- 📊 [Рабочая таблица](https://github.com/isneznanov/qa-pet-project-yp/blob/main/02_Web_Carsharing.xlsx)
 
 ---
 
