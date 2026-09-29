@@ -99,16 +99,7 @@
 
 | Метод | Ручка | Назначение |
 |:--|:--|:--|
-| `POST` | `curl --location 'https://51e61626-7b31-4e3d-abed-0fba0a1c2566.serverhub.praktikum-services.ru/api/v1/kits/3/products' \
---header 'Content-Type: application/json' \
---data '{
-    "productsList": [
-        {
-            "id": 2,
-            "quantity": 2
-        }
-    ]
-}'` | Добавление продуктов в набор |
+| `POST` | `/api/v1/kits/{id}/products` | Добавление продуктов в набор |
 | `POST` | `/fast-delivery/v3.1.1/calculate-delivery.xml` | Проверка доставки курьерской службой и её стоимости (XML) |
 | `GET` | `/api/v1/orders/:id` | Получение списка продуктов в корзине |
 | `PUT` | `/api/v1/orders/:id` | Добавление продуктов в корзину |
