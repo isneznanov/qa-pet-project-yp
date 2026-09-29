@@ -86,7 +86,7 @@
 **Результат:** <!-- Например: N проверок, найдено N багов, рекомендация по релизу -->
 
 **Артефакты:**
-- 📊 [Рабочая таблица](https://github.com/isneznanov/qa-pet-project-yp/blob/main/03_Mobile_Metro.xlsx))
+- 📊 [Рабочая таблица](https://github.com/isneznanov/qa-pet-project-yp/blob/main/03_Mobile_Metro.xlsx)
 - 🛠️ [Настройка эмулятора в Android Studio](ссылка или скриншоты в папке `/screenshots`)
 
 ---
@@ -160,9 +160,7 @@ DELETE /api/v1/orders/{id}
 </details>
 
 **Артефакты:**
-- 📊 [Рабочая таблица (чек-лист, баг-репорты)](ссылка)
-- 📄 [Отчёт о тестировании](ссылка)
-- 📮 [Запросы Postman](ссылка на файл коллекции, если есть)
+- 📊 [Рабочая таблица](https://github.com/isneznanov/qa-pet-project-yp/blob/main/04_API_Prilavok.xlsx)
 
 ---
 
