@@ -120,13 +120,17 @@
 <details>
 <summary><b>POST</b> добавление продуктов в набор</summary>
 
-```http
-POST /api/v1/kits/{id}/products
-
-# тело запроса:
-{
-  ...
-}
+```cURL
+curl --location 'https://51e61626-7b31-4e3d-abed-0fba0a1c2566.serverhub.praktikum-services.ru/api/v1/kits/3/products' \
+--header 'Content-Type: application/json' \
+--data '{
+    "productsList": [
+        {
+            "id": 2,
+            "quantity": 2
+        }
+    ]
+}'
 ```
 </details>
 
