@@ -175,7 +175,7 @@ DELETE /api/v1/orders/{id}
 
 **1. Посчитать, сколько компаний закрылось.**
 ```sql
-SELECT count(status) AS closed_company
+SELECT COUNT(*) AS total_companies_closed
 FROM company
 WHERE status = 'closed';
 ```
@@ -184,8 +184,7 @@ WHERE status = 'closed';
 ```sql
 SELECT funding_total
 FROM company
-WHERE country_code = 'USA'
-  AND category_code = 'news'
+WHERE category_code = 'news' AND country_code = 'USA'
 ORDER BY funding_total DESC;
 ```
 
@@ -200,59 +199,53 @@ WHERE network_username LIKE 'Silver%';
 ```sql
 SELECT *
 FROM people
-WHERE network_username LIKE '%money%'
-  AND last_name LIKE 'K%';
+WHERE network_username LIKE '%money%' 
+AND last_name LIKE 'K%';
 ```
 
 **5. Для каждой страны показать общую сумму привлечённых инвестиций, по убыванию.**
 ```sql
-SELECT country_code, sum(funding_total) AS sum
+SELECT
+    country_code,
+    SUM(funding_total) AS total_funding
 FROM company
 GROUP BY country_code
-ORDER BY sum DESC;
+ORDER BY total_funding DESC;
 ```
 
 **6. Показать имя и фамилию всех сотрудников стартапов и учебное заведение, если оно известно.**
 ```sql
-SELECT p.first_name, p.last_name, e.instituition
-FROM people AS p
-LEFT JOIN education AS e ON p.id = e.person_id;
+SELECT 
+    p.first_name,
+    p.last_name,
+    e.instituition
+FROM people p
+LEFT JOIN education e ON e.person_id = p.id
+ORDER BY p.id;
 ```
 
 **7. Найти общую сумму сделок по покупке компаний за наличные с 2011 по 2013 год включительно.**
 ```sql
-SELECT sum(price_amount)
+SELECT SUM(price_amount) AS total_cash_deals
 FROM acquisition
 WHERE term_code = 'cash'
-  AND extract(year FROM acquired_at) BETWEEN 2011 AND 2013;
+  AND acquired_at BETWEEN '2011-01-01' AND '2013-12-31';
 ```
 
 **8. Найти 10 самых активных стран-инвесторов среди фондов, основанных в 2010–2012 годах.**
 Для каждой страны: минимальное, максимальное и среднее число компаний, в которые инвестировали фонды. Страны, где минимум равен нулю, исключить. Сортировка по среднему по убыванию, затем по коду страны.
 ```sql
-SELECT country_code,
-       min(invested_companies),
-       max(invested_companies),
-       avg(invested_companies) AS avgc
+SELECT
+    country_code,
+    MIN(invested_companies) AS min_companies,
+    MAX(invested_companies) AS max_companies,
+    AVG(invested_companies) AS avg_companies
 FROM fund
-WHERE extract(year FROM founded_at) BETWEEN 2010 AND 2012
+WHERE founded_at BETWEEN '2010-01-01' AND '2012-12-31'
 GROUP BY country_code
-HAVING min(invested_companies) > 0
-ORDER BY avgc DESC, country_code
+HAVING MIN(invested_companies) > 0
+ORDER BY avg_companies DESC, country_code;
 LIMIT 10;
-```
-
----
-
-## Структура репозитория
-
-```
-├── 01_Web_Routes_Forms/
-├── 02_Web_Carsharing/
-├── 03_Mobile_Metro/
-├── 04_API_Prilavok/
-├── 05_SQL/
-└── README.md
 ```
 
 ---
