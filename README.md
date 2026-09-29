@@ -87,7 +87,7 @@
 
 **Артефакты:**
 - 📊 [Рабочая таблица](https://github.com/isneznanov/qa-pet-project-yp/blob/main/03_Mobile_Metro.xlsx)
-- 🛠️ [Настройка эмулятора в Android Studio](ссылка или скриншоты в папке `/screenshots`)
+- 🛠️ [Настройка эмулятора в Android Studio](https://github.com/isneznanov/qa-pet-project-yp/blob/main/additional_materials/Configure_virtual_device.pdf))
 
 ---
 
