@@ -138,11 +138,12 @@
 **Примеры запросов Postman:**
 
 <details>
-<summary><b>GET</b> получение набора из карточки</summary>
+<summary><b>GET</b> получение списка продуктов в корзине</summary>
+
 ```bash
-curl --location 'https://51e61626-7b31-4e3d-abed-0fba0a1c2566.serverhub.praktikum-services.ru/api/v1/kits?cardId=1'
+curl --location 'https://***.serverhub.praktikum-services.ru/api/v1/orders/3'
 ```
-<details>
+</details>
     
 <details>
 <summary><b>POST</b> добавление продуктов в набор</summary>
