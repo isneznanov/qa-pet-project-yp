@@ -40,6 +40,7 @@
 **Результат:** <!-- Например: N тест-кейсов, найдено N багов (из них N критичных) -->
 
 **Артефакты:**
+- 📊 Рабочая таблица: [смотреть онлайн](https://docs.google.com/spreadsheets/d/ВАШ_ID/edit) | [скачать .xlsx](01_Web_Routes_Forms/Working_Table.xlsx)
 - 📊 [Рабочая таблица](https://github.com/isneznanov/qa-pet-project-yp/blob/main/01_Web_Routes_Forms.xlsx)
 
 ---
