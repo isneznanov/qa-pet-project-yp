@@ -40,8 +40,7 @@
 **Результат:** <!-- Например: N тест-кейсов, найдено N багов (из них N критичных) -->
 
 **Артефакты:**
-- 📊 Рабочая таблица: [смотреть онлайн](https://docs.google.com/spreadsheets/d/ВАШ_ID/edit) | [скачать .xlsx](01_Web_Routes_Forms/Working_Table.xlsx)
-- 📊 [Рабочая таблица](https://github.com/isneznanov/qa-pet-project-yp/blob/main/01_Web_Routes_Forms.xlsx)
+- 📊 Рабочая таблица: [смотреть онлайн](https://docs.google.com/spreadsheets/d/16XVMzdmNyN7uJyT88o_9JJCvbuDsaPg3/edit?usp=sharing&ouid=104910583496811000029&rtpof=true&sd=true) | [скачать .xlsx](https://github.com/isneznanov/qa-pet-project-yp/blob/main/01_Web_Routes_Forms.xlsx)
 
 ---
 
@@ -60,7 +59,7 @@
 **Результат:** <!-- Например: N проверок в чек-листах, N тест-кейсов, найдено N багов, из них N блокирующих -->
 
 **Артефакты:**
-- 📊 [Рабочая таблица](https://github.com/isneznanov/qa-pet-project-yp/blob/main/02_Web_Carsharing.xlsx)
+- 📊 Рабочая таблица: [смотреть онлайн](https://docs.google.com/spreadsheets/d/1JIqrSli-S7Z8BN_SNyDpERaEnlBtsr4t/edit?usp=sharing&ouid=104910583496811000029&rtpof=true&sd=true) | [скачать .xlsx](https://github.com/isneznanov/qa-pet-project-yp/blob/main/02_Web_Carsharing.xlsx)
 
 ---
 
@@ -87,7 +86,7 @@
 **Результат:** <!-- Например: N проверок, найдено N багов, рекомендация по релизу -->
 
 **Артефакты:**
-- 📊 [Рабочая таблица](https://github.com/isneznanov/qa-pet-project-yp/blob/main/03_Mobile_Metro.xlsx)
+- 📊 Рабочая таблица: [смотреть онлайн](https://docs.google.com/spreadsheets/d/13nlE47Rto7BuJdN-Yq4UZ24rre1D_zun/edit?usp=sharing&ouid=104910583496811000029&rtpof=true&sd=true) | [скачать .xlsx](https://github.com/isneznanov/qa-pet-project-yp/blob/main/03_Mobile_Metro.xlsx)
 - 🛠️ [Настройка эмулятора в Android Studio](https://github.com/isneznanov/qa-pet-project-yp/blob/main/additional_materials/Configure_virtual_device.pdf)
 
 ---
@@ -147,7 +146,7 @@ curl --location --request PUT 'https://***.serverhub.praktikum-services.ru/api/v
 </details>
 
 **Артефакты:**
-- 📊 [Рабочая таблица](https://github.com/isneznanov/qa-pet-project-yp/blob/main/04_API_Prilavok.xlsx)
+- 📊 Рабочая таблица: [смотреть онлайн](https://docs.google.com/spreadsheets/d/1BTyhiSWYNuJjrufgWKqwbm7_RgfkBwiE/edit?usp=sharing&ouid=104910583496811000029&rtpof=true&sd=true) | [скачать .xlsx](https://github.com/isneznanov/qa-pet-project-yp/blob/main/04_API_Prilavok.xlsx)
 
 ---
 
