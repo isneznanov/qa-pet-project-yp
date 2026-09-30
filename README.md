@@ -137,8 +137,13 @@
 
 **Примеры запросов Postman:**
 
-<!-- Вставьте по одному примеру на каждый метод. Остальные запросы отличаются только параметром (например, id 1, 4, 5, 6, 10). -->
-
+<details>
+<summary><b>GET</b> получение набора из карточки</summary>
+```bash
+curl --location 'https://51e61626-7b31-4e3d-abed-0fba0a1c2566.serverhub.praktikum-services.ru/api/v1/kits?cardId=1'
+```
+<details>
+    
 <details>
 <summary><b>POST</b> добавление продуктов в набор</summary>
 
