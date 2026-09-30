@@ -238,6 +238,5 @@ LIMIT 10;
 
 ## Контакты
 
-- Email: <почта>
-- Telegram: <@username>
-- LinkedIn / hh.ru: <ссылка>
+- Email: <is.neznanov@yandex.ru>
+- Telegram: <@neznanov_ilya>
