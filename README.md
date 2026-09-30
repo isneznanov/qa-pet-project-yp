@@ -135,14 +135,6 @@ curl --location 'https://***.serverhub.praktikum-services.ru/api/v1/kits/3/produ
 </details>
 
 <details>
-<summary><b>GET</b> получение корзины</summary>
-
-```http
-GET /api/v1/orders/{id}
-```
-</details>
-
-<details>
 <summary><b>PUT</b> добавление продуктов в корзину</summary>
 
 ```cURL
@@ -150,14 +142,6 @@ curl --location --request PUT 'https://***.serverhub.praktikum-services.ru/api/v
 --header 'Authorization: 16586ac5-4578-48a8-936c-ecd9af4acbb9' \
 --header 'Content-Type: application/json' \
 --data '{"productsList": [{"id": 35, "quantity": 1}]}'
-```
-</details>
-
-<details>
-<summary><b>DELETE</b> удаление корзины</summary>
-
-```http
-DELETE /api/v1/orders/{id}
 ```
 </details>
 
