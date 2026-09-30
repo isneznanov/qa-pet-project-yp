@@ -121,7 +121,7 @@
 <summary><b>POST</b> добавление продуктов в набор</summary>
 
 ```cURL
-curl --location 'https://51e61626-7b31-4e3d-abed-0fba0a1c2566.serverhub.praktikum-services.ru/api/v1/kits/3/products' \
+curl --location 'https://***.serverhub.praktikum-services.ru/api/v1/kits/3/products' \
 --header 'Content-Type: application/json' \
 --data '{
     "productsList": [
@@ -145,13 +145,11 @@ GET /api/v1/orders/{id}
 <details>
 <summary><b>PUT</b> добавление продуктов в корзину</summary>
 
-```http
-PUT /api/v1/orders/{id}
-
-# тело запроса:
-{
-  ...
-}
+```cURL
+curl --location --request PUT 'https://***.serverhub.praktikum-services.ru/api/v1/orders/3/products' \
+--header 'Authorization: 16586ac5-4578-48a8-936c-ecd9af4acbb9' \
+--header 'Content-Type: application/json' \
+--data '{"productsList": [{"id": 35, "quantity": 1}]}'
 ```
 </details>
 
